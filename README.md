@@ -1,4 +1,4 @@
-# Course-Schedualing-App
+# Course-Scheduling-App
 This app like most I have is an R app using the shinydashboard interface. This app is used to as a
 scheduling tool to view what courses within a college have low enrollments. This is helpful in 
 determining what classes are no good at that time slot and if another section need to be added to 
