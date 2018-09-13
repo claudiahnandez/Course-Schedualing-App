@@ -1,0 +1,36 @@
+
+<h1>Graph Tutorial</h1>
+<p>Heat maps are used throughout the app as the primary visual for displaying data. This tutorial will explain how to interact with the graph, how to read it, and also explain other features that can help with interpreting the data presented.</p>
+
+<center><img src="tutorial.jpg" align="center" width="1200"/></center>
+</br></br>
+<ol type="A">
+	<li><b>X and Y axis</b></li>
+        <p>In every heat map the x-axis represents the day of the week the class is offered, ordered by days of the week. Similarly, the y-axis represents the time of day ordered from earliest to latest (bottom to top). The specific times are not stipulated in the y-axis labels, however, there is a time legend (refer to Part E).</p>
+
+<li><b>Hover Info</b></li>
+         <p>When interacting with the graph, an additional functionality is the ability to hover over a specific class and have a pop up of data with included <ins>Average Enrollment</ins>, number of <ins>Sections</ins>, and section <ins>Hours</ins>. This is useful when having difficulty determining average enrollment from the color alone.</p>
+
+	<li><b>Color Bar Legend</b></li>
+        <p>The purpose of a heat map is to display a third form of measurement and representing it with color. The heat maps presented in this app are measuring <ins>Average Enrollment</ins> from a range between 80 to 0 students. The blue represents a class with a high enrollment rate and the red represents low enrollment rates. The bluer (higher enrollment rate) the better. If at any point distinguishing what range the particular class falls under simply hover over the class and a pop up of the average enrollment will appear. <i>(Refer to Graph Interactivity section)</i>  </p>
+
+
+	<li><b><i>Toolbar</i></b></li>
+<p>The toolbar can be located on the top right of any graph whilst interacting with it (i.e. the cursor must be within the graph's bounds). There are three functions available which include: zoom in, zoom out, and resetting the axis (a button with a little house).</p>
+
+        <li><b> Time Legend</b></li>
+<p>The time legend is the info "i" button that when presend will show what is the corresponding times to the y-axis labels.</p>
+
+<li><b>Collapsible</b></li>
+<p>Graphs can be collapsed individually by pressing the - on the top right of their respective boxes. This is not to be confused with the - that serves as a zoom out feature on the graph. The collapse feature is on the black frame of the box that the graph lies on that also says how long the class is (i.e. X weeks)</p>
+
+<li><b>Enrollment Limit</b></li>
+<p>The graphs are mesured with a default scale from 0 to 80 average students in the <i>Color Bar Legend</i>. When the button is toggled (will turn blue) then the <i>Color Bar Legend</i>
+range will change from 0 to the largest enrollment limit value for the classes in the current filter. </p>
+
+
+</ol>
+
+<h4>***If there are classes being offered in the South Gate Campus (SGEC) a separate tab is available for those classes. All features mentioned above are also available for that tab.</h4>
+
+

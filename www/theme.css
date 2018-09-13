@@ -1,0 +1,184 @@
+html *
+{
+  font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+.main-header .logo {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+/*changes the box in sidebar that has academic year and semester 
+#time_frame.box{
+  margin-top:10px;
+  background-color: #222d32!important
+  position: relative;
+  border-top: 4px solid rgb(29, 191, 231);
+}
+
+#time_frame.box-body{
+  padding: 0px;
+}
+*/
+section.sidebar .shiny-input-container {
+padding: 1px 15px 0px 15px;
+white-space: normal;
+}
+
+.container-fluid {
+    background-color: #ffffff;
+}
+.content-wrapper, .right-side {
+    background-color: #ffffff;
+
+}
+
+
+
+
+.btn{
+  border: 2px solid transparent;
+}
+.small-box h3 {
+    font-size: 24px;
+}
+.small-box{
+  min-height: 130px;
+  max-height: 130px;
+}    
+
+.small-box.bg-yellow { background-color: #7d985e !important; color: #fff !important; }
+.btn-info.active, .btn-info:active, .open>.dropdown-toggle.btn-info {background-color: #3c8dbc;}
+
+
+/*this is to change the color of the info boxes for timeframe, program, and dep,disc,course
+background-color changes the color of the entire box
+color changes the color of the font*/
+.alert-info, .bg-aqua, .callout.callout-info, .label-info, .modal-info .modal-body {
+    /*background-color: #d4dc3f!important;*/
+       background-color: #154e5d !important;
+    
+
+}
+#table{
+  width: 70%;
+}
+
+.box.box-danger {
+    border-top-color: #e6a29f;
+}
+
+.box.box-solid.bg-black{
+      background-color: #222d32!important
+}
+
+/*.box.box-solid.box-warning>.box-header {
+    color: #fff;
+    background: #f39c12;
+    background-color: #185369;
+}*/
+
+.box.box-solid.box-warning {
+    border: 1px solid #f39c12;
+}
+
+.box.box-solid.box-warning>.box-header {
+    color: #333;
+    /* background: #1269F3; */
+    background-color: #efda00;
+}
+.btn-danger {
+    background-color: #ffcd34;
+    border-color: #ac9725;
+}
+
+#test{
+  width:90%;}
+  
+
+.time_down{
+position: relative;
+top: 1.5vh;
+}
+
+#title_main, #title_sgec{
+    right: 4%;
+    position: relative;
+}
+.dropdown-menu {
+    box-shadow: none;
+    border-color: #653434;
+    background-color: #cebdbd;
+}
+.shiny-notification-error{
+    position: fixed;
+    top: calc(60%);
+}
+#semester{
+    position: relative;
+    left: 2vw;
+}
+
+#submit,#submit_advanced{
+      position: relative;
+    bottom: 1vh;
+    width: 110%;
+}
+
+#submit.btn, #submit_advanced.btn{
+      border: 2px solid transparent;
+    border-bottom-color: #7b82c3;
+    border-top-color: #7b82c3;
+    border-right-color: #7b82c3;
+    border-left-color: #7b82c3;
+}
+.checkbox-bs label {
+    font-size: 14px;
+}
+
+.box.box-info {
+    border-top-color: #ffffff;
+    /* border-bottom-color: #ffff !important; */
+    /* border-right-color: #ffff; */
+    /* border-left-color: #ffff; */
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+#advanced{
+      background-color: #ffffff
+}
+.btn {
+    border: 0px solid transparent;
+}
+.btn-box-tool {
+    color: #ffffff !important;
+}
+.btn-box-tool:hover, .open .btn-box-tool,.btn-box-tool:active {
+    color: #ffffff !important;
+    border: 2px solid transparent;
+    border-color: #ffffff;
+}
+
+
+.btn:focus{
+background-color:#ffffff;
+border: 0px solid transparent;
+}
+
+#advanced:active {
+    border: 2px solid transparent;
+    border-color: #ffffff;
+}
+
+#element:hover{
+  cursor:pointer;
+}
+
+.box.box-solid.box-danger>.box-header {
+    color: #fff;
+    background: #333;
+    background-color: #333;
+}
+.box.box-solid.box-danger {
+    border: 1px solid #333;
+}
